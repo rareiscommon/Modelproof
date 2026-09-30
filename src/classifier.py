@@ -7,6 +7,9 @@ import json
 from typing import Any
 
 import openai
+from dotenv import load_dotenv
+
+load_dotenv()
 
 from schemas import PromptConfig, EmailClassification, ClassificationError, ConfigurationError
 
