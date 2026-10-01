@@ -1,0 +1,115 @@
+{
+  "run_at": "2026-10-01",
+  "prompt_version": "v1",
+  "model": "openai/gpt-oss-120b",
+  "total_cases": 15,
+  "correct": 13,
+  "accuracy": 0.8667,
+  "results": [
+    {
+      "id": "gd-0001",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0002",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0003",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0004",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "hard"
+    },
+    {
+      "id": "gd-0005",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0006",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0007",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0008",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "hard"
+    },
+    {
+      "id": "gd-0009",
+      "expected": "account",
+      "got": "account",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0010",
+      "expected": "account",
+      "got": "account",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0011",
+      "expected": "account",
+      "got": "account",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0012",
+      "expected": "account",
+      "got": "billing",
+      "match": false,
+      "difficulty": "hard"
+    },
+    {
+      "id": "gd-0013",
+      "expected": "general",
+      "got": "general",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0014",
+      "expected": "general",
+      "got": "billing",
+      "match": false,
+      "difficulty": "hard"
+    },
+    {
+      "id": "gd-0015",
+      "expected": "general",
+      "got": "general",
+      "match": true,
+      "difficulty": "easy"
+    }
+  ]
+}
