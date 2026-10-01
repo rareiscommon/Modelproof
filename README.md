@@ -1,6 +1,8 @@
-# Model Regression Detector
+# Modelproof
 
-A CI/CD-style pipeline that continuously tests LLM-powered features against a golden dataset whenever a prompt or model changes, detects quality regressions, and alerts before bad outputs reach users.
+**Model regression detection for LLM-powered features.**
+
+A CI/CD pipeline that detects quality regressions whenever prompts or models change, before bad outputs reach users.
 
 > **Status:** Phase 1 of 6 complete. The classifier works. Regression detection, evaluation engine, Slack alerts, and CI integration are on the roadmap — not yet implemented.
 
