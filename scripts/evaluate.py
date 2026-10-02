@@ -1,0 +1,43 @@
+"""
+CLI evaluation runner.
+"""
+import argparse
+import json
+from pathlib import Path
+import yaml
+import sys
+sys.path.append(str(Path(__file__).resolve().parents[1] / "src"))
+from schemas import PromptConfig
+from evaluator import evaluate_dataset, load_baseline, compare_to_baseline, apply_thresholds
+from reporter import generate_html_report
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--dataset", required=True)
+    parser.add_argument("--prompt", required=True)
+    parser.add_argument("--baseline", default="data/baseline_run_001.json")
+    parser.add_argument("--warning-threshold", type=float, default=-0.03)
+    parser.add_argument("--critical-threshold", type=float, default=-0.08)
+    parser.add_argument("--output", default="report.html")
+    args = parser.parse_args()
+
+    prompt_data = yaml.safe_load(open(args.prompt))
+    config = PromptConfig(**prompt_data)
+
+    eval_result = evaluate_dataset(Path(args.dataset), config)
+    baseline = load_baseline(Path(args.baseline))
+    diff = compare_to_baseline(eval_result, baseline)
+    diff["status"] = apply_thresholds(diff["delta"], args.warning_threshold, args.critical_threshold)
+
+    generate_html_report(eval_result, diff, Path(args.output))
+    print(json.dumps({
+        "accuracy": eval_result["accuracy"],
+        "baseline_accuracy": diff["baseline_accuracy"],
+        "delta": diff["delta"],
+        "status": diff["status"]
+    }, indent=2))
+
+
+if __name__ == "__main__":
+    main()
