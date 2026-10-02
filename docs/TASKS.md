@@ -20,32 +20,40 @@
 - [x] Run baseline evaluation, record 86.7% accuracy
 
 ## Phase 3 — Evaluation Engine
-- [ ] Implement evaluation runner
-- [ ] Compute category accuracy and summary similarity
-- [ ] Generate static HTML report
-- [ ] Add CLI entry point
+- [x] Implement evaluation runner (src/evaluator.py)
+- [x] Compute category accuracy and LLM-as-judge summary scoring (src/metrics.py)
+- [x] Add baseline comparison with regression/improvement diff
+- [x] Add statistical thresholds (--warning-threshold, --critical-threshold)
+- [x] Generate static HTML report (src/reporter.py)
+- [x] Add CLI entry point (scripts/evaluate.py)
+- [x] Write evaluation spec (docs/evaluation_spec.md)
+- [x] Write unit tests (tests/test_evaluator.py — 4 passing)
+- [x] First real run: 86.67% accuracy, delta 0.00%, PASS
 
-## Phase 4 — Regression Detection
-- [ ] Baseline storage and comparison
-- [ ] Configurable thresholds
-- [ ] Pass/fail determination
+## Phase 4 — Slack Alerts + Drift Detection
+- [ ] Wire Slack incoming webhook
+- [ ] Send structured alert with PASS/WARNING/CRITICAL status
+- [ ] Include headline metrics and link to HTML report
+- [ ] Implement 7-run rolling average for drift detection
+- [ ] Fire slow-drift warning when rolling average drops below threshold
+- [ ] Add tests for alert formatting and drift logic
 
-## Phase 5 — Notifications
-- [ ] Slack alert formatting
-- [ ] GitHub PR comment generation
+## Phase 5 — CI/CD + Docker
+- [ ] Create .github/workflows/eval.yml
+- [ ] Trigger eval on PRs that modify /prompts
+- [ ] Post pass/fail summary as PR comment
+- [ ] Block merge on CRITICAL regressions
+- [ ] Write Dockerfile for eval runner
+- [ ] Test container locally
 
-## Phase 6 — CI Integration
-- [ ] GitHub Actions example workflow
-- [ ] Documentation for CI usage
+## Phase 6 — Polish
+- [ ] Write blog post or README section explaining the problem
+- [ ] Record 3-minute Loom walkthrough
+- [ ] Add architecture diagram to README
+- [ ] Final repository hygiene pass
+- [ ] Make repo public
 
-## Documentation Retrofit
-- [x] ROADMAP.md
-- [x] CHANGELOG.md
-- [x] ARCHITECTURE.md
-- [x] DECISIONS.md
-- [x] docs/PRD.md
-- [x] docs/RULES.md
-- [x] docs/MEMORY.md
-- [ ] docs/TEST_PLAN.md
-- [ ] docs/SECURITY.md
-- [ ] docs/DESIGN.md classification
+## Backlog
+- [ ] Expand golden dataset to 60-80 cases
+- [ ] Add latency and token usage metrics to report
+- [ ] Per-model A/B evaluation (run same dataset against 2 models)
