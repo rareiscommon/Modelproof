@@ -30,13 +30,13 @@
 - [x] Write unit tests (tests/test_evaluator.py — 4 passing)
 - [x] First real run: 86.67% accuracy, delta 0.00%, PASS
 
+
 ## Phase 4 — Slack Alerts + Drift Detection
-- [ ] Wire Slack incoming webhook
-- [ ] Send structured alert with PASS/WARNING/CRITICAL status
-- [ ] Include headline metrics and link to HTML report
-- [ ] Implement 7-run rolling average for drift detection
-- [ ] Fire slow-drift warning when rolling average drops below threshold
-- [ ] Add tests for alert formatting and drift logic
+- [x] src/run_store.py — atomic snapshot write, FIFO rotation (7 max)
+- [x] src/drift.py — rolling 7-run avg vs fixed baseline
+- [x] src/alerter.py — Slack webhook with color-coded payload
+- [x] scripts/evaluate.py wired: drift → save → alert
+- [x] 34 tests passing
 
 ## Phase 5 — CI/CD + Docker
 - [ ] Create .github/workflows/eval.yml

@@ -4,6 +4,7 @@
 - Phase 1 complete: classifier with prompt versioning, Groq provider, smoke test
 - Phase 2 complete: golden dataset v1 with 15 hand-verified cases, baseline accuracy 86.7%
 - Phase 3 complete: evaluation engine with metrics, baseline diff, thresholds, HTML report
+- Phase 4 complete: Slack alerts, drift detection, 7-run rolling window, 34 tests passing
 - Baseline documentation set complete (README, ROADMAP, CHANGELOG, ARCHITECTURE, DECISIONS, PRD, RULES, TASKS, MEMORY, TEST_PLAN, SECURITY)
 - Security scan complete: pip-audit, gitleaks, bandit, semgrep, trivy — all clean
 - Dependency lock file added: requirements.lock.txt
