@@ -1,0 +1,95 @@
+name: Modelproof Evaluation
+
+# on: pull_request to branches [main] with paths ['prompts/**', 'src/**', 'data/**', 'scripts/**']
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - prompts/**
+      - src/**
+      - data/**
+      - scripts/**
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    env:
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+
+      - name: Create venv
+        run: uv venv .venv
+
+      - name: Install dependencies
+        run: uv pip install --python .venv/bin/python -r requirements.txt
+
+      - name: Run evaluation
+        run: |
+          .venv/bin/python scripts/evaluate.py \
+            --dataset data/golden_dataset_v1.json \
+            --prompt prompts/v1.yaml \
+            --baseline data/baseline_run_001.json \
+            --output report.html 2>&1 | tee eval_output.txt
+
+      - name: Display evaluation output
+        run: cat eval_output.txt
+
+      - name: Parse JSON result
+        run: |
+          python3 -c "
+          import json, sys
+          with open('eval_output.txt') as f:
+              content = f.read()
+          # Extract the JSON portion from tee output
+          for line in content.splitlines():
+              line = line.strip()
+              if line.startswith('{') and line.endswith('}'):
+                  data = json.loads(line)
+                  status = data.get('status', 'unknown')
+                  accuracy = data.get('accuracy', 0)
+                  delta = data.get('delta', 0)
+                  judge_score = data.get('average_judge_score', 0)
+                  print(f'status={status} accuracy={accuracy:.2%} delta={delta:+.2%} judge_score={judge_score:.1f}/5')
+                  sys.exit(0 if status != 'CRITICAL' else 1)
+          print('No JSON found in output')
+          sys.exit(1)
+          "
+
+      - name: Post PR comment
+        if: always()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const output = fs.readFileSync('eval_output.txt', 'utf8');
+            const match = output.match(/status=(\w+)[\s\S]*?accuracy=([\d.]+)[\s\S]*?delta=([\+\-][\d.]+)[\s\S]*?judge_score=([\d.]+)\/5/);
+            if (match) {
+              const [, status, accuracy, delta, judgeScore] = match;
+              const comment = `**Modelproof Evaluation**\n\`\`\`\nstatus: ${status}\naccuracy: ${accuracy}\ndelta: ${delta}\njudge score: ${judgeScore}/5\n\`\`\``;
+              const issueNumber = context.payload.pull_request?.number;
+              github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                body: comment
+              });
+            }
+
+      - name: Fail on CRITICAL
+        if: failure()
+        run: exit 1
