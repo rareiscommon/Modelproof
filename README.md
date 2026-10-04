@@ -114,3 +114,5 @@ Five scanners run on every commit: pip-audit, gitleaks, bandit, semgrep, trivy.
 ## License
 
 MIT - see LICENSE.
+
+< CI test -->
