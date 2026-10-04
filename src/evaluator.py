@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple
 import sys
 sys.path.append(str(Path(__file__).resolve().parents[1]))
-from src.metrics import category_accuracy, per_category_accuracy
+from src.metrics import category_accuracy, per_category_accuracy, llm_judge_summary_score, average_judge_score
 from src.schemas import PromptConfig
 from src.classifier import classify_email
 
@@ -19,26 +19,33 @@ def load_json(path: Path):
 def evaluate_dataset(dataset_path: Path, prompt_config: PromptConfig) -> Dict:
     dataset = load_json(dataset_path)
     results = []
+    judge_scores = []
     for case in dataset:
         text = case["text"]
         expected = case["category"]
+        expected_summary = case.get("summary", "")
         classification = classify_email(text, prompt_config)
         match = classification.category == expected
+        judge_score = llm_judge_summary_score(classification.summary, expected_summary)
+        judge_scores.append(judge_score)
         results.append({
             "id": case["id"],
             "expected": expected,
             "got": classification.category,
             "match": match,
             "difficulty": case.get("difficulty"),
-            "predicted_summary": classification.summary
+            "predicted_summary": classification.summary,
+            "judge_score": judge_score
         })
     accuracy = category_accuracy(results)
     per_cat = per_category_accuracy(results)
+    avg_judge = average_judge_score(judge_scores)
     return {
         "total_cases": len(results),
         "correct": sum(1 for r in results if r["match"]),
         "accuracy": accuracy,
         "per_category_accuracy": per_cat,
+        "average_judge_score": avg_judge,
         "results": results
     }
 
