@@ -105,8 +105,8 @@ Five scanners run on every commit: pip-audit, gitleaks, bandit, semgrep, trivy.
 | 1 | Classifier | Complete |
 | 2 | Golden dataset + baseline | Complete |
 | 3 | Evaluation engine | Complete |
-| 4 | Slack alerts + drift detection | In progress |
-| 5 | CI/CD + Docker | Planned |
+| 4 | Slack alerts + drift detection | Complete |
+| 5 | CI/CD + Docker | In progress |
 | 6 | Polish | Planned |
 
 ---
