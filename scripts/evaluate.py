@@ -70,7 +70,7 @@ def main():
         "status": diff["status"],
         "average_judge_score": eval_result.get("average_judge_score"),
         "drift": drift_block
-    }, indent=2))
+    }))
 
 
 if __name__ == "__main__":
