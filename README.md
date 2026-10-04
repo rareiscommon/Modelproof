@@ -4,7 +4,7 @@
 
 A CI/CD pipeline that detects quality regressions whenever prompts or models change, before bad outputs reach users.
 
-**Status:** Phase 3 of 6 complete.
+**Status:** Phase 4 of 6 complete.
 
 ---
 
