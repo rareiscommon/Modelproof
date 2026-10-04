@@ -20,4 +20,3 @@ few_shot_examples:
     output:
       category: account
       summary: Customer cannot log in due to forgotten password.
-# test comment
