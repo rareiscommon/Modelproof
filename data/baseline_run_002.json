@@ -1,0 +1,451 @@
+{
+  "run_at": "2026-10-05",
+  "prompt_version": "v1",
+  "model": "openai/gpt-oss-120b",
+  "total_cases": 63,
+  "correct": 56,
+  "accuracy": 0.8889,
+  "results": [
+    {
+      "id": "gd-0001",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0002",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0003",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0004",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "hard"
+    },
+    {
+      "id": "gd-0005",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0006",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0007",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0008",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "hard"
+    },
+    {
+      "id": "gd-0009",
+      "expected": "account",
+      "got": "account",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0010",
+      "expected": "account",
+      "got": "account",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0011",
+      "expected": "account",
+      "got": "account",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0012",
+      "expected": "account",
+      "got": "billing",
+      "match": false,
+      "difficulty": "hard"
+    },
+    {
+      "id": "gd-0013",
+      "expected": "general",
+      "got": "general",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0014",
+      "expected": "general",
+      "got": "billing",
+      "match": false,
+      "difficulty": "hard"
+    },
+    {
+      "id": "gd-0015",
+      "expected": "general",
+      "got": "general",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0016",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0017",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0018",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0019",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0020",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0021",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0022",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0023",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0024",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0025",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "hard"
+    },
+    {
+      "id": "gd-0026",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0027",
+      "expected": "billing",
+      "got": "billing",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0028",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0029",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "hard"
+    },
+    {
+      "id": "gd-0030",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0031",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0032",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0033",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0034",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0035",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0036",
+      "expected": "technical",
+      "got": "account",
+      "match": false,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0037",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "hard"
+    },
+    {
+      "id": "gd-0038",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "hard"
+    },
+    {
+      "id": "gd-0039",
+      "expected": "technical",
+      "got": "technical",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0040",
+      "expected": "account",
+      "got": "account",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0041",
+      "expected": "account",
+      "got": "account",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0042",
+      "expected": "account",
+      "got": "account",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0043",
+      "expected": "account",
+      "got": "account",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0044",
+      "expected": "account",
+      "got": "account",
+      "match": true,
+      "difficulty": "hard"
+    },
+    {
+      "id": "gd-0045",
+      "expected": "account",
+      "got": "account",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0046",
+      "expected": "account",
+      "got": "billing",
+      "match": false,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0047",
+      "expected": "account",
+      "got": "technical",
+      "match": false,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0048",
+      "expected": "account",
+      "got": "account",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0049",
+      "expected": "account",
+      "got": "account",
+      "match": true,
+      "difficulty": "hard"
+    },
+    {
+      "id": "gd-0050",
+      "expected": "account",
+      "got": "technical",
+      "match": false,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0051",
+      "expected": "account",
+      "got": "account",
+      "match": true,
+      "difficulty": "hard"
+    },
+    {
+      "id": "gd-0052",
+      "expected": "general",
+      "got": "billing",
+      "match": false,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0053",
+      "expected": "general",
+      "got": "general",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0054",
+      "expected": "general",
+      "got": "general",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0055",
+      "expected": "general",
+      "got": "general",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0056",
+      "expected": "general",
+      "got": "general",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0057",
+      "expected": "general",
+      "got": "general",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0058",
+      "expected": "general",
+      "got": "general",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0059",
+      "expected": "general",
+      "got": "general",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0060",
+      "expected": "general",
+      "got": "general",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0061",
+      "expected": "general",
+      "got": "general",
+      "match": true,
+      "difficulty": "medium"
+    },
+    {
+      "id": "gd-0062",
+      "expected": "general",
+      "got": "general",
+      "match": true,
+      "difficulty": "easy"
+    },
+    {
+      "id": "gd-0063",
+      "expected": "general",
+      "got": "general",
+      "match": true,
+      "difficulty": "medium"
+    }
+  ]
+}

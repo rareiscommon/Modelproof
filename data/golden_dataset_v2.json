@@ -1,0 +1,1017 @@
+[
+  {
+    "id": "gd-0001",
+    "text": "Hi support, I was charged twice for my subscription this month on 2026-09-15 and 2026-09-16. Can you refund the duplicate charge? Thanks, Maya",
+    "category": "billing",
+    "summary": "Customer reports duplicate subscription charge and requests a refund.",
+    "difficulty": "easy",
+    "tags": [
+      "duplicate charge",
+      "refund"
+    ],
+    "source": "ai-drafted-human-edited",
+    "verified": "edited",
+    "verified_by": "rareiscommon",
+    "created": "2026-10-01",
+    "notes": ""
+  },
+  {
+    "id": "gd-0002",
+    "text": "My credit card was declined but I have funds available. Please check why my payment failed for invoice #4821.",
+    "category": "billing",
+    "summary": "Customer's payment declined despite available funds and asks for investigation.",
+    "difficulty": "medium",
+    "tags": [
+      "payment failed",
+      "invoice"
+    ],
+    "source": "ai-drafted-human-edited",
+    "verified": "edited",
+    "verified_by": "rareiscommon",
+    "created": "2026-10-01",
+    "notes": ""
+  },
+  {
+    "id": "gd-0003",
+    "text": "Can you explain the extra $9.99 fee on my last bill? I don't recognize it.",
+    "category": "billing",
+    "summary": "Customer questions an unrecognized fee on recent bill.",
+    "difficulty": "easy",
+    "tags": [
+      "unrecognized fee"
+    ],
+    "source": "ai-drafted-human-edited",
+    "verified": "edited",
+    "verified_by": "rareiscommon",
+    "created": "2026-10-01",
+    "notes": ""
+  },
+  {
+    "id": "gd-0004",
+    "text": "I was billed for a premium plan I never signed up for and my account was downgraded without notice. This is unacceptable. Fix it now or I will cancel.",
+    "category": "billing",
+    "summary": "Angry customer reports unauthorized premium billing and demands immediate fix.",
+    "difficulty": "hard",
+    "tags": [
+      "unauthorized",
+      "angry tone",
+      "mixed topic"
+    ],
+    "source": "ai-drafted-human-edited",
+    "verified": "edited",
+    "verified_by": "rareiscommon",
+    "created": "2026-10-01",
+    "notes": "Edge case: angry tone + mixed billing/account"
+  },
+  {
+    "id": "gd-0005",
+    "text": "The app crashes every time I try to upload a photo. iPhone 15, iOS 18. Error: null pointer.",
+    "category": "technical",
+    "summary": "Customer reports app crash on photo upload with device details.",
+    "difficulty": "easy",
+    "tags": [
+      "crash",
+      "upload"
+    ],
+    "source": "ai-drafted-human-edited",
+    "verified": "edited",
+    "verified_by": "rareiscommon",
+    "created": "2026-10-01",
+    "notes": ""
+  },
+  {
+    "id": "gd-0006",
+    "text": "Website is super slow and times out when I try to check out. Happens on Chrome and Safari.",
+    "category": "technical",
+    "summary": "Customer experiences slow website and checkout timeouts across browsers.",
+    "difficulty": "medium",
+    "tags": [
+      "performance",
+      "checkout"
+    ],
+    "source": "ai-drafted-human-edited",
+    "verified": "edited",
+    "verified_by": "rareiscommon",
+    "created": "2026-10-01",
+    "notes": ""
+  },
+  {
+    "id": "gd-0007",
+    "text": "I think there is a bug. When I search for 'wireless headphones' I get results for earplugs. Also the filter for price doesn't work.",
+    "category": "technical",
+    "summary": "Customer reports search returning wrong results and broken price filter.",
+    "difficulty": "medium",
+    "tags": [
+      "search bug",
+      "filter"
+    ],
+    "source": "ai-drafted-human-edited",
+    "verified": "edited",
+    "verified_by": "rareiscommon",
+    "created": "2026-10-01",
+    "notes": ""
+  },
+  {
+    "id": "gd-0008",
+    "text": "Help! My dashboard shows 'Error 500' and I have a report due tomorrow. Ticket #8832.",
+    "category": "technical",
+    "summary": "Urgent report of dashboard 500 error with ticket reference.",
+    "difficulty": "hard",
+    "tags": [
+      "error 500",
+      "urgent",
+      "ticket reference"
+    ],
+    "source": "ai-drafted-human-edited",
+    "verified": "edited",
+    "verified_by": "rareiscommon",
+    "created": "2026-10-01",
+    "notes": "Edge case: urgent + ticket reference"
+  },
+  {
+    "id": "gd-0009",
+    "text": "I forgot my password and the reset link is not working. Email: user@example.com",
+    "category": "account",
+    "summary": "Customer cannot reset password and reset link fails.",
+    "difficulty": "easy",
+    "tags": [
+      "password reset"
+    ],
+    "source": "ai-drafted-human-edited",
+    "verified": "edited",
+    "verified_by": "rareiscommon",
+    "created": "2026-10-01",
+    "notes": ""
+  },
+  {
+    "id": "gd-0010",
+    "text": "Please change my email address from old@mail.com to new@mail.com. Also can you tell me why my login is slow?",
+    "category": "account",
+    "summary": "Customer requests email change and asks about slow login.",
+    "difficulty": "medium",
+    "tags": [
+      "email change",
+      "mixed topic"
+    ],
+    "source": "ai-drafted-human-edited",
+    "verified": "edited",
+    "verified_by": "rareiscommon",
+    "created": "2026-10-01",
+    "notes": "Edge case: mixed account+technical"
+  },
+  {
+    "id": "gd-0011",
+    "text": "I want to close my account.",
+    "category": "account",
+    "summary": "Customer requests account closure.",
+    "difficulty": "easy",
+    "tags": [
+      "account closure",
+      "very short"
+    ],
+    "source": "ai-drafted-human-edited",
+    "verified": "edited",
+    "verified_by": "rareiscommon",
+    "created": "2026-10-01",
+    "notes": "Edge case: very short"
+  },
+  {
+    "id": "gd-0012",
+    "text": "Hi, I trid to update my billing adress but the form keeps saying invlaid zip. The zip is 10001. Pls help asap.",
+    "category": "account",
+    "summary": "Customer reports billing address form rejecting valid zip with typos.",
+    "difficulty": "hard",
+    "tags": [
+      "typos",
+      "billing address",
+      "form error"
+    ],
+    "source": "ai-drafted-human-edited",
+    "verified": "edited",
+    "verified_by": "rareiscommon",
+    "created": "2026-10-01",
+    "notes": "Edge case: typos"
+  },
+  {
+    "id": "gd-0013",
+    "text": "Do you offer a student discount? Also what are your business hours?",
+    "category": "general",
+    "summary": "Customer inquires about student discount and business hours.",
+    "difficulty": "easy",
+    "tags": [
+      "inquiry",
+      "pricing"
+    ],
+    "source": "ai-drafted-human-edited",
+    "verified": "edited",
+    "verified_by": "rareiscommon",
+    "created": "2026-10-01",
+    "notes": ""
+  },
+  {
+    "id": "gd-0014",
+    "text": "I am not sure if this is a bug or my mistake. I clicked checkout and nothing happened. Then I got charged. Help?",
+    "category": "general",
+    "summary": "Ambiguous report of checkout issue and unexpected charge.",
+    "difficulty": "hard",
+    "tags": [
+      "ambiguous",
+      "checkout",
+      "charge"
+    ],
+    "source": "ai-drafted-human-edited",
+    "verified": "edited",
+    "verified_by": "rareiscommon",
+    "created": "2026-10-01",
+    "notes": "Edge case: ambiguous + mixed"
+  },
+  {
+    "id": "gd-0015",
+    "text": "Thanks for the great service! Just wanted to say the new feature is awesome.",
+    "category": "general",
+    "summary": "Customer sends positive feedback on new feature.",
+    "difficulty": "easy",
+    "tags": [
+      "feedback",
+      "positive"
+    ],
+    "source": "ai-drafted-human-edited",
+    "verified": "edited",
+    "verified_by": "rareiscommon",
+    "created": "2026-10-01",
+    "notes": ""
+  },
+  {
+    "id": "gd-0016",
+    "text": "We upgraded from Pro to Enterprise mid-month and were charged the full Enterprise price twice. I expected a prorated charge. Please review.",
+    "category": "billing",
+    "summary": "Customer reports duplicate full-price charge after mid-cycle upgrade and requests proration review.",
+    "difficulty": "medium",
+    "tags": [
+      "upgrade",
+      "proration",
+      "duplicate charge"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0017",
+    "text": "I cancelled my subscription on the 1st but was still billed on the 5th. Can you refund that charge?",
+    "category": "billing",
+    "summary": "Customer reports charge after cancellation and requests refund.",
+    "difficulty": "easy",
+    "tags": [
+      "cancellation",
+      "refund"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0018",
+    "text": "My card was declined for this month's invoice. It works everywhere else. Can you check what's going on?",
+    "category": "billing",
+    "summary": "Customer reports card decline on invoice despite valid card elsewhere.",
+    "difficulty": "medium",
+    "tags": [
+      "payment",
+      "decline"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0019",
+    "text": "Can you re-issue invoice INV-2048 with our updated VAT number? The current one won't clear our finance department.",
+    "category": "billing",
+    "summary": "Customer requests invoice re-issue with updated VAT number for finance approval.",
+    "difficulty": "easy",
+    "tags": [
+      "invoice",
+      "vat",
+      "reissue"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0020",
+    "text": "I'm being charged in USD but my account is set to EUR. The conversion fee is eating my margin. How do I switch billing currency?",
+    "category": "billing",
+    "summary": "Customer requests billing currency change from USD to EUR.",
+    "difficulty": "medium",
+    "tags": [
+      "currency",
+      "billing"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0021",
+    "text": "We paid for the annual plan upfront in March but have only used it for two months. Are partial refunds available for unused time?",
+    "category": "billing",
+    "summary": "Customer requests partial refund for unused annual plan time.",
+    "difficulty": "medium",
+    "tags": [
+      "refund",
+      "annual plan"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0022",
+    "text": "I see three invoices for the same month on my account. That can't be right. Can someone look?",
+    "category": "billing",
+    "summary": "Customer reports multiple invoices for the same billing period.",
+    "difficulty": "easy",
+    "tags": [
+      "invoice",
+      "duplicate"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0023",
+    "text": "My free trial converted to a paid plan without any email warning. I'd like to cancel and refund that first charge.",
+    "category": "billing",
+    "summary": "Customer reports trial auto-converted without notice and requests refund.",
+    "difficulty": "medium",
+    "tags": [
+      "trial",
+      "refund",
+      "auto-charge"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0024",
+    "text": "I applied promo code SAVE20 at checkout but was charged full price. Can you apply the discount retroactively?",
+    "category": "billing",
+    "summary": "Customer reports promo code not applied and requests retroactive discount.",
+    "difficulty": "easy",
+    "tags": [
+      "promo code",
+      "discount"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0025",
+    "text": "I accidentally opened a chargeback with my bank. Please cancel it and just bill me normally. Sorry for the hassle.",
+    "category": "billing",
+    "summary": "Customer requests cancellation of mistakenly filed chargeback.",
+    "difficulty": "hard",
+    "tags": [
+      "chargeback",
+      "billing"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0026",
+    "text": "Our billing contact left the company. How do we update who receives invoices?",
+    "category": "billing",
+    "summary": "Customer requests invoice recipient change after staff departure.",
+    "difficulty": "easy",
+    "tags": [
+      "billing contact",
+      "invoices"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0027",
+    "text": "The amount on my statement doesn't match what the dashboard shows I owe. Off by about $40. Which is correct?",
+    "category": "billing",
+    "summary": "Customer reports discrepancy between statement and dashboard billing amounts.",
+    "difficulty": "medium",
+    "tags": [
+      "discrepancy",
+      "statement"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0028",
+    "text": "Our integration started hitting rate limits at 4pm today. We haven't changed anything. Did you lower the limits?",
+    "category": "technical",
+    "summary": "Customer reports sudden API rate limit changes without configuration change.",
+    "difficulty": "medium",
+    "tags": [
+      "api",
+      "rate limit"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0029",
+    "text": "Webhooks stopped firing around 2am UTC. Our logs show nothing received for six hours. Any known issues?",
+    "category": "technical",
+    "summary": "Customer reports webhook delivery stopped unexpectedly overnight.",
+    "difficulty": "hard",
+    "tags": [
+      "webhook",
+      "delivery"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0030",
+    "text": "The dashboard takes 15-20 seconds to load each page today. Yesterday it was instant. Is something wrong?",
+    "category": "technical",
+    "summary": "Customer reports severe dashboard performance degradation.",
+    "difficulty": "medium",
+    "tags": [
+      "performance",
+      "dashboard"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0031",
+    "text": "Large file uploads (over 50MB) are timing out. Smaller files work fine. This is blocking our monthly data import.",
+    "category": "technical",
+    "summary": "Customer reports upload timeouts for files over 50MB.",
+    "difficulty": "medium",
+    "tags": [
+      "upload",
+      "timeout"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0032",
+    "text": "Login redirects in a loop between /login and /dashboard. Clearing cookies didn't help.",
+    "category": "technical",
+    "summary": "Customer reports login redirect loop persisting after cookie clear.",
+    "difficulty": "medium",
+    "tags": [
+      "login",
+      "redirect"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0033",
+    "text": "Search is returning results from last week instead of today's data. Indexing delay?",
+    "category": "technical",
+    "summary": "Customer reports stale search results suggesting indexing delay.",
+    "difficulty": "easy",
+    "tags": [
+      "search",
+      "indexing"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0034",
+    "text": "The iOS app crashes immediately on launch after the latest update. iPhone 15, iOS 18.3.",
+    "category": "technical",
+    "summary": "Customer reports iOS app crash on launch after recent update.",
+    "difficulty": "easy",
+    "tags": [
+      "mobile",
+      "crash"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0035",
+    "text": "Slack integration stopped posting notifications about three hours ago. The connection shows as active on our end.",
+    "category": "technical",
+    "summary": "Customer reports Slack integration not posting notifications despite active connection.",
+    "difficulty": "medium",
+    "tags": [
+      "slack",
+      "integration"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0036",
+    "text": "I'm not receiving 2FA codes by SMS. Tried three times over the last hour. Can you check delivery logs?",
+    "category": "technical",
+    "summary": "Customer reports SMS 2FA codes not being delivered.",
+    "difficulty": "medium",
+    "tags": [
+      "2fa",
+      "sms"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0037",
+    "text": "Data export from our 200k record account times out after 5 minutes. Needs to work for our compliance audit next week.",
+    "category": "technical",
+    "summary": "Customer reports data export timeout on large account ahead of compliance audit.",
+    "difficulty": "hard",
+    "tags": [
+      "export",
+      "timeout",
+      "compliance"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0038",
+    "text": "CSV import is silently dropping rows with special characters in the name column. About 5% of each file goes missing.",
+    "category": "technical",
+    "summary": "Customer reports CSV import dropping rows with special characters.",
+    "difficulty": "hard",
+    "tags": [
+      "csv",
+      "import",
+      "data loss"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0039",
+    "text": "Emails from your system are landing in our spam folder. Can you check SPF/DKIM on your sending domain?",
+    "category": "technical",
+    "summary": "Customer reports delivery emails routed to spam, requests SPF/DKIM check.",
+    "difficulty": "medium",
+    "tags": [
+      "email",
+      "deliverability"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0040",
+    "text": "My password reset email never arrives. I've tried three times and checked spam.",
+    "category": "account",
+    "summary": "Customer reports password reset emails not arriving despite retries.",
+    "difficulty": "easy",
+    "tags": [
+      "password reset"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0041",
+    "text": "I need to change my account email from an old work address I no longer have access to.",
+    "category": "account",
+    "summary": "Customer requests account email change away from inaccessible old address.",
+    "difficulty": "medium",
+    "tags": [
+      "email change"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0042",
+    "text": "Please delete my account and all associated data. I'm moving to a competitor.",
+    "category": "account",
+    "summary": "Customer requests account and data deletion.",
+    "difficulty": "easy",
+    "tags": [
+      "deletion",
+      "gdpr"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0043",
+    "text": "The account owner has left the company. How do we transfer ownership to me?",
+    "category": "account",
+    "summary": "Customer requests account ownership transfer after owner departure.",
+    "difficulty": "medium",
+    "tags": [
+      "ownership",
+      "transfer"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0044",
+    "text": "We have two accounts from an old acquisition. Can they be merged into one with consolidated billing?",
+    "category": "account",
+    "summary": "Customer requests account merge with consolidated billing.",
+    "difficulty": "hard",
+    "tags": [
+      "merge",
+      "acquisition"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0045",
+    "text": "I'm trying to add three new team members but the invite button is greyed out. We're on the Team plan.",
+    "category": "account",
+    "summary": "Customer reports team invite button disabled on Team plan.",
+    "difficulty": "medium",
+    "tags": [
+      "team",
+      "invite"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0046",
+    "text": "How do I update the company name and billing address on file? The current details are wrong.",
+    "category": "account",
+    "summary": "Customer requests company name and billing address update.",
+    "difficulty": "easy",
+    "tags": [
+      "billing info",
+      "update"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0047",
+    "text": "We want to enable SSO with Okta for our whole org. What's the setup process?",
+    "category": "account",
+    "summary": "Customer requests SSO setup process for Okta integration.",
+    "difficulty": "medium",
+    "tags": [
+      "sso",
+      "okta"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0048",
+    "text": "A user needs to be promoted to admin but only sees Member in the role dropdown. Plan limitation or bug?",
+    "category": "account",
+    "summary": "Customer reports role dropdown missing admin option for user.",
+    "difficulty": "medium",
+    "tags": [
+      "roles",
+      "permissions"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0049",
+    "text": "My account got locked after several failed logins. I'm the only admin. How do I recover access?",
+    "category": "account",
+    "summary": "Customer requests account unlock and recovery as sole admin.",
+    "difficulty": "hard",
+    "tags": [
+      "locked",
+      "recovery",
+      "admin"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0050",
+    "text": "Profile picture uploads fail with a generic error. Tried PNG, JPG, under 1MB. Same result.",
+    "category": "account",
+    "summary": "Customer reports profile picture upload failures across formats.",
+    "difficulty": "easy",
+    "tags": [
+      "profile",
+      "upload"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0051",
+    "text": "A former employee deleted their account but we need to recover their data for a legal hold.",
+    "category": "account",
+    "summary": "Customer requests account data recovery for legal hold after deletion.",
+    "difficulty": "hard",
+    "tags": [
+      "deletion",
+      "legal hold",
+      "recovery"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0052",
+    "text": "Do you offer discounted pricing for registered non-profits? We're a small environmental charity.",
+    "category": "general",
+    "summary": "Customer inquires about non-profit pricing.",
+    "difficulty": "easy",
+    "tags": [
+      "pricing",
+      "nonprofit"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0053",
+    "text": "We're a 500-person company evaluating platforms. Can we get a call with someone on your enterprise team?",
+    "category": "general",
+    "summary": "Prospect requests enterprise sales contact for evaluation.",
+    "difficulty": "easy",
+    "tags": [
+      "enterprise",
+      "sales"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0054",
+    "text": "Feature request: it would be great if scheduled reports could be exported to Google Sheets directly.",
+    "category": "general",
+    "summary": "Customer requests Google Sheets export for scheduled reports.",
+    "difficulty": "easy",
+    "tags": [
+      "feature request"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0055",
+    "text": "We run a complementary analytics tool and would like to explore a partnership. Who should I talk to?",
+    "category": "general",
+    "summary": "Company proposes partnership and requests contact.",
+    "difficulty": "medium",
+    "tags": [
+      "partnership"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0056",
+    "text": "Is there a Postman collection for your API? The docs are good but a collection would speed up our onboarding.",
+    "category": "general",
+    "summary": "Customer requests Postman collection for API onboarding.",
+    "difficulty": "easy",
+    "tags": [
+      "api",
+      "docs"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0057",
+    "text": "Small typo on the /webhooks page: \"occured\" should be \"occurred\". Flagging in case it's helpful.",
+    "category": "general",
+    "summary": "Customer reports documentation typo on webhooks page.",
+    "difficulty": "easy",
+    "tags": [
+      "docs",
+      "typo"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0058",
+    "text": "Just wanted to say your support team resolved my last ticket in 20 minutes. Best experience I've had with any SaaS. Keep it up.",
+    "category": "general",
+    "summary": "Customer sends positive feedback about support response time.",
+    "difficulty": "easy",
+    "tags": [
+      "feedback",
+      "positive"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0059",
+    "text": "I'm a journalist writing about AI evaluation tooling for The Register. Can I get a quote or a briefing?",
+    "category": "general",
+    "summary": "Journalist requests quote or briefing for article.",
+    "difficulty": "medium",
+    "tags": [
+      "press",
+      "media"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0060",
+    "text": "Our security team needs your latest SOC 2 report and pen test summary. Where can I find them?",
+    "category": "general",
+    "summary": "Customer requests SOC 2 report and pen test summary for security review.",
+    "difficulty": "medium",
+    "tags": [
+      "security",
+      "compliance",
+      "soc2"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0061",
+    "text": "Is your platform HIPAA compliant? We're a healthcare startup and need to know before signing.",
+    "category": "general",
+    "summary": "Prospect inquires about HIPAA compliance before purchase.",
+    "difficulty": "medium",
+    "tags": [
+      "compliance",
+      "hipaa",
+      "healthcare"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0062",
+    "text": "I'd love to join the beta for your new evaluation features. How do I get on the list?",
+    "category": "general",
+    "summary": "Customer requests access to beta program for new features.",
+    "difficulty": "easy",
+    "tags": [
+      "beta",
+      "early access"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  },
+  {
+    "id": "gd-0063",
+    "text": "Do you have a bug bounty program? I found an edge case in your API sandbox that might be worth reporting.",
+    "category": "general",
+    "summary": "Researcher inquires about bug bounty program and reports API edge case.",
+    "difficulty": "medium",
+    "tags": [
+      "security",
+      "bug bounty"
+    ],
+    "source": "ai-drafted",
+    "verified": "pending",
+    "verified_by": "",
+    "created": "2026-10-05",
+    "notes": ""
+  }
+]
