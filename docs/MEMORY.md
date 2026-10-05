@@ -5,6 +5,7 @@
 - Phase 2 complete: golden dataset v1 with 15 hand-verified cases, baseline accuracy 86.7%
 - Phase 3 complete: evaluation engine with metrics, baseline diff, thresholds, HTML report
 - Phase 4 complete: Slack alerts, drift detection, 7-run rolling window, 34 tests passing
+- Phase 5 complete: CI/CD workflow, Dockerfile, GitHub Actions validated with a real merged PR (green checkmark)
 - Baseline documentation set complete (README, ROADMAP, CHANGELOG, ARCHITECTURE, DECISIONS, PRD, RULES, TASKS, MEMORY, TEST_PLAN, SECURITY)
 - Security scan complete: pip-audit, gitleaks, bandit, semgrep, trivy — all clean
 - Dependency lock file added: requirements.lock.txt

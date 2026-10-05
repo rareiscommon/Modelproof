@@ -4,7 +4,7 @@
 
 A CI/CD pipeline that detects quality regressions whenever prompts or models change, before bad outputs reach users.
 
-**Status:** Phase 4 of 6 complete.
+**Status:** Phase 5 of 6 complete.
 
 ---
 
@@ -106,8 +106,8 @@ Five scanners run on every commit: pip-audit, gitleaks, bandit, semgrep, trivy.
 | 2 | Golden dataset + baseline | Complete |
 | 3 | Evaluation engine | Complete |
 | 4 | Slack alerts + drift detection | Complete |
-| 5 | CI/CD + Docker | In progress |
-| 6 | Polish | Planned |
+| 5 | CI/CD + Docker | Complete |
+| 6 | Polish | In progress |
 
 ---
 

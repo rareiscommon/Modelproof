@@ -38,20 +38,25 @@
 - [x] scripts/evaluate.py wired: drift → save → alert
 - [x] 34 tests passing
 
+
 ## Phase 5 — CI/CD + Docker
-- [ ] Create .github/workflows/eval.yml
-- [ ] Trigger eval on PRs that modify /prompts
-- [ ] Post pass/fail summary as PR comment
-- [ ] Block merge on CRITICAL regressions
-- [ ] Write Dockerfile for eval runner
-- [ ] Test container locally
+- [x] .github/workflows/eval.yml — GitHub Actions workflow
+- [x] Trigger on PRs that modify prompts/ or src/
+- [x] Post pass/fail summary as PR comment
+- [x] Block merge on CRITICAL regressions
+- [x] Dockerfile for containerized eval
+- [x] GROQ_API_KEY secret configured in repo settings
+- [x] Workflow validated with real PR — green checkmark
 
 ## Phase 6 — Polish
-- [ ] Write blog post or README section explaining the problem
-- [ ] Record 3-minute Loom walkthrough
+- [x] Bump action versions (Node 20 deprecation fix)
+- [x] CHANGELOG v0.5.0 entry
+- [x] Update README status to Phase 5 complete
 - [ ] Add architecture diagram to README
+- [ ] Write blog-post section in README
+- [ ] Record Loom walkthrough
 - [ ] Final repository hygiene pass
-- [ ] Make repo public
+- [ ] Make repository public
 
 ## Backlog
 - [ ] Expand golden dataset to 60-80 cases
