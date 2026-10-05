@@ -4,35 +4,26 @@
 
 # Modelproof
 
-**Continuous regression testing for LLM-powered applications.**
+Continuous evaluation harness for LLM-powered features. Baseline diffing, drift detection, and CI gating for prompts and models.
 
-Modelproof evaluates LLM features against versioned golden datasets and detects quality regressions when prompts, models, or evaluation logic change — before bad outputs reach users.
+## The problem
 
-Status: **Phase 6 — Polish**
----
+Prompts change. Models get updated. Embeddings get swapped. And almost nobody tests whether the change made outputs worse.
 
-## The Problem
+A prompt that improves 90% of cases can silently break the 10% that matter. You find out when a customer complains.
 
-Every team that ships AI features changes prompts. Almost none of them test whether the change made things worse.
+Modelproof is the missing test harness. It runs your LLM feature against a hand-verified golden dataset on every change, scores the results, diffs against a baseline, and fails CI when quality regresses.
 
-A prompt that improves 90% of cases can silently break 10% of edge cases. You only find out when a customer complains, or when the wrong output hits production.
+## How it works
 
-Modelproof is the missing test harness. It runs your LLM feature against a hand-verified golden dataset on every change, scores the results, diffs against the previous run, and alerts you when quality regresses.
+1. **Classify** — a customer support email classifier returns structured JSON (category + one-sentence summary). Prompt loaded from versioned YAML, never hardcoded.
+2. **Evaluate** — runs the golden dataset, scores category match and LLM-as-judge summary relevance.
+3. **Diff** — compares against a baseline run, applies statistical thresholds.
+4. **Alert** — posts a color-coded Slack alert and a PR comment.
+5. **Gate** — blocks merge on CRITICAL regressions (>8 pp accuracy drop).
+6. **Package** — ships as a reproducible Docker image.
 
----
-## What This Does Today
-
-**Phase 1 — Classifier.** A customer support email classifier that returns structured JSON with a category and one-sentence summary. Prompt loaded from versioned YAML, never hardcoded.
-
-**Phase 2 — Golden Dataset.** 15 hand-verified test cases. Baseline accuracy: 86.7%.
-
-**Phase 3 — Evaluation Engine.** Runs the dataset, scores category match and LLM-as-judge summary relevance, diffs against baseline, applies statistical thresholds, generates an HTML report.
-
-**Phase 4 — Alerts + Drift Detection.** Detects evaluation drift across a rolling window of runs and sends color-coded regression alerts via Slack.
-
-**Phase 5 — CI/CD + Docker.** Runs the regression evaluation on every PR, posts results as a PR comment, blocks merge on CRITICAL regressions, and packages the system in a reproducible container.
-
-## Example regression
+## What a regression looks like
 
     Baseline accuracy:  86.7%
     Current run:        73.3%
@@ -40,7 +31,16 @@ Modelproof is the missing test harness. It runs your LLM feature against a hand-
     Threshold:          CRITICAL (>8%)
     Result:             ❌ CI FAILED
 
-Modelproof caught this before merge. Without it, the regression would have shipped silently.
+Caught before merge. Would have shipped silently without it.
+
+## Current state
+
+- 15 hand-verified golden cases, baseline accuracy 86.7%
+- Full CI/CD pipeline (GitHub Actions + Docker)
+- Drift detection across a rolling window of runs
+- Five security scanners run on every commit: pip-audit, gitleaks, bandit, semgrep, trivy
+- 44 tests passing
+
 ---
 
 ## Prerequisites
