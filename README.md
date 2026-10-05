@@ -113,16 +113,11 @@ Five scanners run on every commit: pip-audit, gitleaks, bandit, semgrep, trivy.
 
 ---
 
-## Roadmap
+## What's next
 
-| Phase | Deliverable | Status |
-|---|---|---|
-| 1 | Classifier | Complete |
-| 2 | Golden dataset + baseline | Complete |
-| 3 | Evaluation engine | Complete |
-| 4 | Slack alerts + drift detection | Complete |
-| 5 | CI/CD + Docker | Complete |
-| 6 | Polish | In progress |
+- Expand the golden dataset from 15 to 60–80 cases
+- Add adversarial input coverage
+- Multi-judge scoring to reduce LLM-as-judge variance
 
 ---
 
