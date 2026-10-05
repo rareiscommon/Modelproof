@@ -1,3 +1,9 @@
+[![CI](https://github.com/rareiscommon/Modelproof/actions/workflows/eval.yml/badge.svg)](https://github.com/rareiscommon/Modelproof/actions/workflows/eval.yml)
+![Python](https://img.shields.io/badge/python-3.11%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-phase%205%20of%206-blue)
+![Tests](https://img.shields.io/badge/tests-44%20passing-brightgreen)
+
 # Modelproof
 
 **Model regression detection for LLM-powered features.**
