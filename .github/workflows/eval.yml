@@ -41,9 +41,9 @@ jobs:
       - name: Run evaluation
         run: |
           .venv/bin/python scripts/evaluate.py \
-            --dataset data/golden_dataset_v1.json \
+            --dataset data/golden_dataset_v2.json \
             --prompt prompts/v1.yaml \
-            --baseline data/baseline_run_001.json \
+            --baseline data/baseline_run_002.json \
             --output report.html 2>&1 | tee eval_output.txt
 
       - name: Display evaluation output
