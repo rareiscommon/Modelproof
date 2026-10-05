@@ -253,8 +253,8 @@
       "duplicate charge"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -269,8 +269,8 @@
       "refund"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -285,8 +285,8 @@
       "decline"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -302,8 +302,8 @@
       "reissue"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -318,8 +318,8 @@
       "billing"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -334,8 +334,8 @@
       "annual plan"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -350,8 +350,8 @@
       "duplicate"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -367,8 +367,8 @@
       "auto-charge"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -383,8 +383,8 @@
       "discount"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -399,8 +399,8 @@
       "billing"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -415,8 +415,8 @@
       "invoices"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -431,8 +431,8 @@
       "statement"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -447,8 +447,8 @@
       "rate limit"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -463,8 +463,8 @@
       "delivery"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -479,8 +479,8 @@
       "dashboard"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -495,8 +495,8 @@
       "timeout"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -511,8 +511,8 @@
       "redirect"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -527,8 +527,8 @@
       "indexing"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -543,8 +543,8 @@
       "crash"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -559,8 +559,8 @@
       "integration"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -575,8 +575,8 @@
       "sms"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -592,8 +592,8 @@
       "compliance"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -609,8 +609,8 @@
       "data loss"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -625,8 +625,8 @@
       "deliverability"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -640,8 +640,8 @@
       "password reset"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -655,8 +655,8 @@
       "email change"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -671,8 +671,8 @@
       "gdpr"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -687,8 +687,8 @@
       "transfer"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -703,8 +703,8 @@
       "acquisition"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -719,8 +719,8 @@
       "invite"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -735,8 +735,8 @@
       "update"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -751,8 +751,8 @@
       "okta"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -767,8 +767,8 @@
       "permissions"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -784,8 +784,8 @@
       "admin"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -800,8 +800,8 @@
       "upload"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -817,8 +817,8 @@
       "recovery"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -833,8 +833,8 @@
       "nonprofit"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -849,8 +849,8 @@
       "sales"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -864,8 +864,8 @@
       "feature request"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -879,8 +879,8 @@
       "partnership"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -895,8 +895,8 @@
       "docs"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -911,8 +911,8 @@
       "typo"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -927,14 +927,14 @@
       "positive"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
   {
     "id": "gd-0059",
-    "text": "I'm a journalist writing about AI evaluation tooling for The Register. Can I get a quote or a briefing?",
+    "text": "I'm a journalist writing about AI evaluation tooling for a tech publication. Can I get a quote or a briefing?",
     "category": "general",
     "summary": "Journalist requests quote or briefing for article.",
     "difficulty": "medium",
@@ -943,8 +943,8 @@
       "media"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -960,8 +960,8 @@
       "soc2"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -977,8 +977,8 @@
       "healthcare"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -993,8 +993,8 @@
       "early access"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   },
@@ -1009,8 +1009,8 @@
       "bug bounty"
     ],
     "source": "ai-drafted",
-    "verified": "pending",
-    "verified_by": "",
+    "verified": "yes",
+    "verified_by": "rareiscommon",
     "created": "2026-10-05",
     "notes": ""
   }
