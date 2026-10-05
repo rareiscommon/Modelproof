@@ -18,7 +18,7 @@ Modelproof is the missing test harness. It runs your LLM feature against a hand-
 
 1. **Classify** — a customer support email classifier returns structured JSON (category + one-sentence summary). Prompt loaded from versioned YAML, never hardcoded.
 2. **Evaluate** — runs the golden dataset, scores category match and LLM-as-judge summary relevance.
-3. **Diff** — compares against a baseline run, applies statistical thresholds.
+3. **Diff** — compares against a baseline run and applies configured thresholds.
 4. **Alert** — posts a color-coded Slack alert and a PR comment.
 5. **Gate** — blocks merge on CRITICAL regressions (>8 pp accuracy drop).
 6. **Package** — ships as a reproducible Docker image.

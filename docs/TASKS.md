@@ -23,7 +23,7 @@
 - [x] Implement evaluation runner (src/evaluator.py)
 - [x] Compute category accuracy and LLM-as-judge summary scoring (src/metrics.py)
 - [x] Add baseline comparison with regression/improvement diff
-- [x] Add statistical thresholds (--warning-threshold, --critical-threshold)
+- [x] Add configured thresholds (--warning-threshold, --critical-threshold)
 - [x] Generate static HTML report (src/reporter.py)
 - [x] Add CLI entry point (scripts/evaluate.py)
 - [x] Write evaluation spec (docs/evaluation_spec.md)
