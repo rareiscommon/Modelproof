@@ -1,1 +1,1 @@
-# model-regression-detector src package
+# Modelproof src package
